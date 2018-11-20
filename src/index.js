@@ -1,7 +1,8 @@
 import { render } from "react-dom";
 import React from "react";
+import CreateEventPage from './CreateEventPage.js';
 
 
 
 
-render(<App />, document.querySelector("#root"));
+render(<CreateEventPage />, document.querySelector("#root"));
