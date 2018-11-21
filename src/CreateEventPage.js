@@ -72,6 +72,7 @@ export default class CreateEventPage extends React.Component{
 
             return(
                  <div className='CreateEventPageWrap' style={styles.CreateEventPageWrap}>
+                        
                         <form onSubmit={this.handleSubmit}>
                              <ImageSection 
                                     backgroundImage={this.state.backgroundImage }
@@ -106,9 +107,8 @@ export default class CreateEventPage extends React.Component{
 
 const styles = {
       CreateEventPageWrap:{
-            width:700,
-            margin:'auto',
-            display:'block',
+            
+         
             backgroundColor:'gray',
             padding:20,
             marginTop: 30,

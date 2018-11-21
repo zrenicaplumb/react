@@ -1,7 +1,7 @@
 import { render } from "react-dom";
-
+import ReactDOM from 'react-dom';
 import React from "react";
-import CreateEventPage from './CreateEventPage.js';
+import HomePage from './HomePage.js';
 
 import './bootstrap.min.css';
 
@@ -9,4 +9,4 @@ import './bootstrap.min.css';
 
 
 
-render(<CreateEventPage />, document.querySelector("#root"));
+render(<HomePage />, document.querySelector("#root"));
