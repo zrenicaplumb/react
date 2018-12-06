@@ -1,13 +1,13 @@
 import React, { Component } from 'react';
 import './index.css';
-import EventVisibilitySettingsBtn from './components/EventVisibilitySettingsBtn.js';
-import ImageSection from './components/ImageSection.js';
-import EventTitle from './components/EventTitle.js';
-import Location from './components/Location.js';
-import Description from './components/Description.js';
-import SubmitCreatedEventBtn from './components/SubmitCreatedEventBtn.js';
-import StartDate from './components/StartDate';
-import EndDate from './components/EndDate';
+import EventVisibilitySettingsBtn from './EventVisibilitySettingsBtn.js';
+import ImageSection from './ImageSection.js';
+import EventTitle from './EventTitle.js';
+import Location from './Location.js';
+import Description from './Description.js';
+import SubmitCreatedEventBtn from './SubmitCreatedEventBtn.js';
+import StartDate from './StartDate';
+import EndDate from './EndDate';
 
 
      
