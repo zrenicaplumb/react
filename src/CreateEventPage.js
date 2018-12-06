@@ -30,7 +30,7 @@ export default class CreateEventPage extends React.Component{
             this.handleSubmit = this.handleSubmit.bind(this);
 
       }
-
+     
       changeTitle(e){
             this.setState({
                   title:e.target.value

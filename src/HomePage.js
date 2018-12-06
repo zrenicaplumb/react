@@ -2,15 +2,10 @@ import React, { Component } from 'react';
 import { render } from "react-dom";
 import Nav from './components/Nav.js';
 
-
-
 import './bootstrap.min.css';
 
 
-
 import './index.css';
-
-
 
 
 export default class HomePage extends React.Component{
